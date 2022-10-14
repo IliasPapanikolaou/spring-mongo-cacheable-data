@@ -44,5 +44,8 @@ public class SpringMongoCacheableDataApplication implements CommandLineRunner {
 //
 //        employeeRepository.saveAll(List.of(employee1, employee2, employee3, employee4, employee5));
 //        departmentRepository.saveAll(List.of(dept1, dept2, dept3, dept4, dept5));
+
+//        Employee employee6 = new Employee("Mario", "TD");
+//        employeeRepository.save(employee6);
     }
 }
